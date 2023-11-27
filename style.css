@@ -1,0 +1,23 @@
+body {
+    background: rgb(19,9,182);
+background: linear-gradient(90deg, rgba(19,9,182,1) 10%, rgba(12,176,125,1) 49%, rgba(3,140,168,1) 100%);
+    color: rgb(254, 252, 252);
+}
+
+.container-fluid {
+    background-color: black;
+    margin-top: 11%;
+    border : 2px solid blue;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 254, 254);
+    width: 15%;
+    height: 40dvh;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .container-fluid {
+    height : 43dvh;
+    width: 50%;
+}
+}
+
